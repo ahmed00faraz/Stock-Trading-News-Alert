@@ -4,14 +4,14 @@ from twilio.rest import Client
 STOCK_NAME = "TSLA"
 COMPANY_NAME = "Tesla Inc"
 
-TWILIO_SID = 'ACb3a9ec9cc87ef804e8185d2c041556f4'
-TWILIO_AUTH_TOKEN = '6516eb1268eccd1731426662bc7ca5db'
+TWILIO_SID = 'Your sid'
+TWILIO_AUTH_TOKEN = 'Your api token'
 
 STOCK_ENDPOINT = "https://www.alphavantage.co/query"
 NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
 
-STOCK_API_KEY = "TZN0S2013QS4WDNH"
-NEWS_API_KEY = "99e30874204447aabfc7ec321399b887"
+STOCK_API_KEY = "Your api key"
+NEWS_API_KEY = "Your api key"
 
 stock_params = {
     "function": "TIME_SERIES_DAILY",
